@@ -1,0 +1,256 @@
+\<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Yasmin 🎂</title>
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #ffe6f2;
+    color: #333;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* halaman awal */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container h1 {
+    color: #ff66a3;
+    font-size: 2em;
+}
+.container button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff66a3;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container button:hover {
+    background-color: #ff3385;
+}
+
+/* halaman ulang tahun */
+.birthday-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* foto profil */
+.photo-frame img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 4px solid #ff66a3;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Galeri foto */
+.photo-gallery {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 2lpx auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.photo-gallery img {
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 2px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.8s ease;
+}
+
+/* efek muncul */
+.photo-gallery img.show {
+    opacity:12;
+    transform: translateY(0);
+}
+
+/* pesan singkat */
+.message {
+    margin-top: 20px;
+}
+.message h2 {
+    color: #ff3385;
+}
+
+/* surat */
+.letter {
+    margin: 25px auto;
+    background: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 15px;
+    width: 85%;
+    max-width: 500px;
+    text-align: left;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    line-height: 1.6;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s ease;
+}
+.letter.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* emoji hujan */
+.emoji {
+    position: absolute;
+    top: -50px;
+    font-size: 24px;
+    animation: fall linear forwards;
+    opacity: 0.8;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(110vh);
+        opacity: 0;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- Halaman awal -->
+<div class="container" id="homePage">
+    <h1>Happy Birthday YAAZSMINEEEE GEMESSS PRIMADONA TRITEK DAN ANAK TRITEK DAN ANAK AKUNTANSI DAN ANAK KELAS SEBELAS.............</h1>
+    <button onclick="enterPassword()">Masuk</button>
+</div>
+
+<!-- Halaman ulang tahun -->
+<div class="birthday-container" id="birthdayPage">
+    <div class="photo-frame">
+        <img src="potber.jpg" alt="Foto Yasmin">
+    </div>
+
+    <!-- GALERI FOTO -->
+    <div class="photo-gallery">
+        <img src="y.jpg" alt="Foto 2">
+
+    </div>
+
+    <div class="message">
+        <h2>For jsmnessch imut nan gemesh cantik</h2>
+        <p>Happy Birthday yaaaa 🎂🍵🥳</p>
+    </div>
+
+    <!-- SURAT -->
+    <div class="letter" id="letterBox">
+        <h2>For jsmnessch imut nan gemesh cantik</h2>
+            <p>jsmnessch</p>
+            <p>Happy Birthday yaaaa🎂🍵🥳</p>
+            <p>cieee nambahh satuu umurnyaaa. semoga cita cita yasminn 
+                untuk lulus ptn nanti tercapaii yaa dengan usaha dan doa 
+                yasmiinnn semogaa Yasmin diberii kesehatan yang lebihhh biar
+                 semangaat belajar yasmiinnn untuk masuk ptn nantiii and ingett
+                  yaa yasmin ituu terbaikk ga ada yang bisa
+                 rajin seperti Yasmin ga ada yang bisa sekonsisten yasminn kegiatannyaaa,dewa 
+                 salutt bangett sama yasminnn aslii rill no fek fekkk takk boongggg daweee…</p>
+
+            <p>yasminn jangan sering begadangg gadangg yaaa,yasminn haruss bisa jaga pola hidup
+                 yasminn biar sehatt,,,dewa tau kok yasmin lagi fokus banget buat masuk PTN dewa percaya 
+                 banget yasmin bakal bisa lulus karna yasmin itu anaknya pintar,rajinn dann ga gampang 
+                 menyerahhh,jadi jangan pernah ragu sama kemampuan yasmin sendiri yaaa karena hasil kerja keras
+                  yasmin bakal kebayarr manisssssssssssweatt….</p>
+
+            <p> dewaa selaluuu support yasmiiinnn mauuu segimanapuuunnn dimata dewa yasminn terbaiikkk yasminn 
+                kuat menghadapii masalah sebesar sekecill apapun yasmin bisa lewatiiinn jujur dewa salut bangett
+                 punya temen cewee cantikkk lucuu imutt gemeshhh namanyaa Yasmin awalia syahputri  punya tujuan 
+                 positiff dann perempuan yang paling dewa kagumiiiin</p>
+
+            <p> Happy Birthdayyyy yaaaa anakk cantikkkk semogaaa sehat selaluuu rezekii diamalkannnn 
+                 yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa🎂🥳🥳🥳🥳🥳</p>
+            <p>Dibaca ya dek KETIKAN GUWE awas kalo ga dibaca😡😡 </p>
+            <p> 💝</p>
+        <p>
+            Dari,  
+            <b>Dewa</b> 💖
+        </p>
+    </div>
+
+    <audio id="birthdayMusic" loop>
+        <source src="Kasih - Aera.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+<script>
+function enterPassword() {
+    const pass = prompt("Masukkan password:");
+    if (pass === "0611") {
+        document.getElementById("homePage").style.display = "none";
+        const page = document.getElementById("birthdayPage");
+        page.style.display = "flex";
+        startEmojiRain();
+
+        // efek muncul foto
+        setTimeout(() => {
+            const imgs = document.querySelectorAll('.photo-gallery img');
+            imgs.forEach((img, i) => {
+                setTimeout(() => {
+                    img.classList.add('show');
+                }, i * 250);
+            });
+        }, 500);
+
+        // surat muncul terakhir
+        setTimeout(() => {
+            document.getElementById("letterBox").classList.add("show");
+        }, 2500);
+
+        // musik nyala
+        document.getElementById("birthdayMusic").play();
+    } else {
+        alert("Password salah 😜");
+    }
+}
+
+// fungsi hujan emoji
+function startEmojiRain() {
+    const emojis = ["🥰", "🌺", "🌸", "🌷", "💗", "💢", "💥"];
+    const page = document.getElementById("birthdayPage");
+
+    setInterval(() => {
+        const emoji = document.createElement("div");
+        emoji.classList.add("emoji");
+        emoji.innerText = emojis[Math.floor(Math.random() * emojis.length)];
+        emoji.style.left = Math.random() * 100 + "vw";
+        emoji.style.animationDuration = (Math.random() * 4 + 4) + "s";
+        emoji.style.fontSize = (Math.random() * 20 + 20) + "px";
+        page.appendChild(emoji);
+
+        setTimeout(() => {
+            emoji.remove();
+        }, 6000);
+    }, 300);
+}
+</script>
+
+</body>
+</html>
